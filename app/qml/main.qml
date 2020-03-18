@@ -55,7 +55,7 @@ ApplicationWindow{
     property bool fullscreen: appSettings.fullscreen
     onFullscreenChanged: visibility = (fullscreen ? Window.FullScreen : Window.Windowed)
 
-    //Workaround: Without __contentItem a ugly thin border is visible.
+    //Workaround: Without __contentItem an ugly thin border is visible.
     menuBar: CRTMainMenuBar{
         id: mainMenu
         visible: (Qt.platform.os === "osx" || appSettings.showMenubar)

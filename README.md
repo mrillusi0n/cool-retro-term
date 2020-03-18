@@ -5,4 +5,4 @@ Originally developed by [Swordfish90](https://github.com/Swordfish90/cool-retro-
 ## Improvements
 
 - [ ] Settings Menu's Readability
-- [ ] Change app title to "Cool Retro Term"
+- [ ] Change App Title to "Cool Retro Term"

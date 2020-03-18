@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     MonospaceFontManager monospaceFontManager;
 
 #if !defined(Q_OS_MAC)
-    app.setWindowIcon(QIcon::fromTheme("cool-retro-term", QIcon(":../icons/32x32/cool-retro-term.png")));
+    app.setWindowIcon(QIcon::fromTheme("Cool Retro Term", QIcon(":../icons/32x32/cool-retro-term.png")));
 #else
     app.setWindowIcon(QIcon(":../icons/32x32/cool-retro-term.png"));
 #endif
